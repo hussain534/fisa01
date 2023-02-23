@@ -1,18 +1,20 @@
 The programm is built with jdk 9.0.4 considering the towns A, B,C,D and E.
-extract fisa01.zip and copy fisa01 in ur local folder.
+Download the code as zip from https://github.com/hussain534/fisa01
+Extract fisa01(inside the fisa01-main) from fisa01-main.zip and copy fisa01 in ur local folder.
 If fisa01 is copied in folder "test" in G drive
 cd G:\test
 
 NOTE:
 TryMe is the java program that has the logic to compute the distance along a certain route, the number of different routes between two towns, and the shortest route between two towns
 TestRunner is the Junit java test program for TryMe and can be used to test the inputs and all the 10 cases
-AssignSlots is the java program to assign sessiones in tracks.
 
-G:\test>G:\Hussain\softwares\jdk-9.0.4\bin\java -jar fisa01/AssignSlots.jar fisa01/AssignSlots
 
 G:\test>G:\Hussain\softwares\jdk-9.0.4\bin\java -jar fisa01/trainroute.jar fisa01/TryMe
-
 G:\test>G:\Hussain\softwares\jdk-9.0.4\bin\java -jar fisa01/testcases.jar fisa01/TestRunner
+
+NOTE:
+AssignSlots is the java program to assign sessiones in tracks.
+G:\test>G:\Hussain\softwares\jdk-9.0.4\bin\java -jar fisa01/AssignSlots.jar fisa01/AssignSlots
 
 Example of execution.
 
